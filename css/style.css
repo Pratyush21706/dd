@@ -1,0 +1,177 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+    
+.ic{
+    width : 100%;
+    height : 100;
+    overflow: hidden;
+}
+
+.ii{
+    width : 100%;
+    height : 100;
+    overflow: hidden;
+}
+
+.logo{
+    position: fixed;
+    top : 0;
+    width : 100%;
+    color : white;
+    padding : 3vh;
+    font-size: 25px;
+/*    background: black;*/
+    margin-top: -0px;
+}
+
+.dbs{
+    position: absolute;
+    top : 0;
+    left : 0;
+    margin-top: 25vh;
+        margin-left: 5vw;
+    width: 50%;
+}
+.nb{
+    background: black;
+    color : white;
+    font-size: 20px;
+    padding: 2vh;
+    border : 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 2px;
+    transition: .5s;
+        border : 2px solid black;
+    overflow: hidden;
+    text-decoration: none;
+/*    WIDTH : 10%;*/
+/*    text-align: left;*/
+    padding-top: 10px;
+/*    position: absolute*/
+
+}
+
+.nb:hover{
+    background: white;
+    color:  black;
+}
+
+.nb:hover >::after{
+    content: "   Windows"
+}
+.nb1:hover >::after{
+    content: "   Android"
+}
+.nb2:hover >::after{
+    content: "   Mac"
+}
+
+.nb2{
+        margin-left: 2%
+}
+h1{
+    font-size: 4.5vw;
+}
+
+p{
+    font-size: 2vw;
+    color : #151515;
+    margin-top: -5vh;
+}
+.pt{
+/*    position: fixed;*/
+/*    box-shadow: 0px 2px 20px 2px rgba(0,0,0.2)*/
+}
+
+
+
+.wrapper{
+/*    position: absolute;*/
+    background: #ffc972;
+    width : 100%;
+    padding-bottom: 10vh;
+        padding-top: 5vh;
+/*    border-bottom: 2px solid #e1e1e1*/
+/*        box-shadow: 0px 2px 20px 2px red*/
+            
+}
+/**/
+.cl2{
+    background: #ff9b73;
+     box-shadow: 0px 2px 20px 2px #ff9b73
+
+}
+.cl3{
+    background: #b692fe;
+     box-shadow: 0px 2px 20px 2px #b692fe
+
+}
+.cl4{
+    background: #01d4ff;
+     box-shadow: 0px 2px 20px 2px #01d4ff
+
+}
+.cl5{
+    background: #e4ee90;
+     box-shadow: 0px 2px 20px 2px #e4ee90
+
+}
+.cl6{
+    background: black;
+    color : white;
+/*     box-shadow: 0px 2px 20px 2px red*/
+
+}
+@media screen and (max-width : 900px){
+   
+        .im{
+    width : 80vw;
+            margin-left: 10vw;
+            overflow: hidden;
+            border-radius: 20px;
+            margin-top: 6vh;
+}
+    .tp{
+        margin-top: 5vh;
+    }
+    .i1{
+        width : 80vw;
+    }
+    .ic{
+    width : 100%;
+    height : 60vh;
+    overflow: hidden;
+}
+
+.ii{
+    width : 220%;
+    height : 60vh;
+    overflow: hidden;
+}
+    
+    h1{
+    font-size: 2.5rem;
+        padding-bottom: 2vh;
+}
+    .nb0{
+        display: none;
+    }
+p{
+    font-size: 4vw;
+    color : #151515;
+/*    margin-top: 10px;*/
+}
+    
+    .logo{
+/*        background: rgba(0,0,0,0.8);*/
+        z-index: 6;
+    }
+
+    
+}
+
